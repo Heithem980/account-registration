@@ -1,0 +1,21 @@
+body {
+  background-color: cornsilk;
+
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 30rem;
+}
+
+label {
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 5px;
+}
