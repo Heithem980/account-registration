@@ -11,27 +11,27 @@
     <form>
       <label>
         Name
-        <input id="name" placeholder="Name" type="text" />
+        <input id="name" placeholder="Name" type="text" required />
       </label>
 
       <label>
         Username
-        <input id="username" placeholder="username" type="text" />
+        <input id="username" placeholder="username" type="text" required />
       </label>
 
       <label>
         Email
-        <input id="email" placeholder="email" type="email" />
+        <input id="email" placeholder="email" type="email" required />
       </label>
 
       <label>
         Password
-        <input id="password" placeholder="password" type="password" />
+        <input class= "password" id="password" placeholder="password" type="password" minlength="8"  required />
       </label>
 
       <label>
         Confirm Password
-        <input id="Confirm password" placeholder="Confirm password" type="password"/>
+        <input class="password" id="Confirm password" placeholder="Confirm password" type="password" minlength="8" required/>
       </label>
 
       <button class="btn-submit" type="submit">Submit</button>

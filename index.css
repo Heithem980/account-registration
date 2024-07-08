@@ -19,3 +19,16 @@ label {
 
     margin-bottom: 5px;
 }
+
+
+
+
+.input-error {
+    border: 2px solid red;
+    background-color: #fdd;
+}
+
+.input-success {
+    border: 2px solid green;
+    background-color: #dfd;
+}
