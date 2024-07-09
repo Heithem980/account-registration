@@ -75,4 +75,22 @@ function validateForm() {
 submit.addEventListener("click", (event) => {
   event.preventDefault();
   alert('Form submitted successfully!');
+
+  const name = document.querySelector("#name")
+  const username = document.querySelector("#username")
+  const email = document.querySelector("#email")
+  const password = document.querySelector("#password")
+
+
+  let registrationData = {};
+
+  registrationData.name = name.value;
+  registrationData.username = username.value;
+  registrationData.email = email.value;
+  registrationData.password = password.value;
+
+
+  console.log(registrationData)
+
+  
 });
